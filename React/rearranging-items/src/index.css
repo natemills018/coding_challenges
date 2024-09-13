@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+button {
+  background-color: #0091ea;
+  color: #dddddd;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+ul {
+  text-decoration: none;
+}
+
+span {
+  margin-left: 2%;
+  margin-right: 2%;
+}
