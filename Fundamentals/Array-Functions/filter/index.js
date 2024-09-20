@@ -4,8 +4,15 @@ function filter(arr) {
     // For example, if arr === [{ name: "cat", isPet: true }, { name: "dog", isPet: true }, { name: "rock", isPet: false }]
     //    then arr.filter(obj => obj.isPet) would return [{ name: "cat", isPet: true }, { name: "dog", isPet: true }
     // Instead of using .filter, you must use just a regular for loop.
-
     let results = [];
+
+    for(let i = 0; i < arr.length; i++) {
+        if( arr[i].isPet === true) {
+            results.push(arr[i]);
+        }
+    }
+
+   
 
     // Define your for loop here
     // return the results array containing only pets
