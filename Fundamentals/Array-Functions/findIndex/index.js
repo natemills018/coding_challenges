@@ -9,6 +9,10 @@ function array_find(arr) {
 
     let results = null;
 
+    for(let i = 0; i < arr.length; i++) {
+        
+    }
+
     // Define your for loop here
     // return either the index position of the found item with a name of "rock" or -1 if no item is found
 
