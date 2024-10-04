@@ -10,8 +10,16 @@ function bestRestaurant(restaurants) {
         { name: "Orange Joe's Slurmeria", ratings: [2, 4, 3, 2, 2.5, 2.5] },
         { name: "The Courier's Cantina", ratings: [4, 3, 5] }
     ]
+
     */
 
+        for(let i = 0; i < restaurants.length; i++) {
+            if(restaurants[i].ratings < 5) {
+                console.log('You must have minimum of 5 ratings in order to be eligible')
+            } else {
+                
+            }
+        }
     return null;
 }
 
